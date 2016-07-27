@@ -26,6 +26,7 @@ html, body {
 	-webkit-transform:scale(-1,1);
 	-moz-transform:scale(-1,1);
 	-o-transform:scale(-1,1);
+	-webkit-filter: hue-rotate(90deg);
 	filter: hue-rotate(90deg);
 }
 
