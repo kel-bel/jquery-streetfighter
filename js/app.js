@@ -27,7 +27,7 @@ $(document).ready(function() {
 					$(this).hide();
 					$(this).css('left', '625px');
 				}
-		)		
+		);	
 	})
 	.mouseup(function(){
 		$('.ryu-throwing').hide();
@@ -75,7 +75,7 @@ $(document).ready(function() {
 		if (e.keyCode == 89) { 
 			$('.hulk-still').hide();
 			$('.hulk-cool').show();
-		}
+		};
 	})
 	.keyup(function(e) {
 		if (e.keyCode == 88) {
@@ -85,7 +85,7 @@ $(document).ready(function() {
 		if (e.keyCode == 89) {
 			$('.hulk-still').show();
 			$('.hulk-cool').hide();x
-		}
+		};
 	});
 
 function playHadouken () {
